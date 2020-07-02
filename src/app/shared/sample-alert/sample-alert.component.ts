@@ -37,7 +37,7 @@ export class SampleAlertComponent {
     const alert = await this.alertController.create({
       cssClass: 'my-custom-class',
       header: 'Confirm!',
-      message: 'Message <strong>text</strong>!!!',
+      message: 'Message <strong>Are you sure</strong>!!!',
       buttons: [
         {
           text: 'Cancel',
