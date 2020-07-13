@@ -1,88 +1,68 @@
 
-<ion-item>
-    <ion-label position="fixed">Fixed Label</ion-label>
-    <ion-input clear-input maxlength="200"></ion-input>
- </ion-item>
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label>
+          Auto Manufacturers
+        </ion-label>
+      </ion-list-header>
+  
+      <ion-item>
+        <ion-label>Cord</ion-label>
+        <ion-radio value="cord"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Duesenberg</ion-label>
+        <ion-radio value="duesenberg"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Hudson</ion-label>
+        <ion-radio value="hudson"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Packard</ion-label>
+        <ion-radio value="packard"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Studebaker</ion-label>
+        <ion-radio value="studebaker"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
 
- <ion-item>
-  <ion-label>Select State</ion-label>
-  <ion-select value="Florida" okText="Okay" cancelText="Dismiss">
-  <ion-select-option value="AL">Alabama</ion-select-option>
-	<ion-select-option value="AK">Alaska</ion-select-option>
-	<ion-select-option value="AZ">Arizona</ion-select-option>
-	<ion-select-option value="AR">Arkansas</ion-select-option>
-	<ion-select-option value="CA">California</ion-select-option>
-	<ion-select-option value="CO">Colorado</ion-select-option>
-	<ion-select-option value="CT">Connecticut</ion-select-option>
-	<ion-select-option value="DE">Delaware</ion-select-option>
-	<ion-select-option value="DC">District Of Columbia</ion-select-option>
-	<ion-select-option value="FL">Florida</ion-select-option>
-	<ion-select-option value="GA">Georgia</ion-select-option>
-	<ion-select-option value="HI">Hawaii</ion-select-option>
-	<ion-select-option value="ID">Idaho</ion-select-option>
-	<ion-select-option value="IL">Illinois</ion-select-option>
-	<ion-select-option value="IN">Indiana</ion-select-option>
-	<ion-select-option value="IA">Iowa</ion-select-option>
-	<ion-select-option value="KS">Kansas</ion-select-option>
-	<ion-select-option value="KY">Kentucky</ion-select-option>
-	<ion-select-option value="LA">Louisiana</ion-select-option>
-	<ion-select-option value="ME">Maine</ion-select-option>
-	<ion-select-option value="MD">Maryland</ion-select-option>
-	<ion-select-option value="MA">Massachusetts</ion-select-option>
-	<ion-select-option value="MI">Michigan</ion-select-option>
-	<ion-select-option value="MN">Minnesota</ion-select-option>
-	<ion-select-option value="MS">Mississippi</ion-select-option>
-	<ion-select-option value="MO">Missouri</ion-select-option>
-	<ion-select-option value="MT">Montana</ion-select-option>
-	<ion-select-option value="NE">Nebraska</ion-select-option>
-	<ion-select-option value="NV">Nevada</ion-select-option>
-	<ion-select-option value="NH">New Hampshire</ion-select-option>
-	<ion-select-option value="NJ">New Jersey</ion-select-option>
-	<ion-select-option value="NM">New Mexico</ion-select-option>
-	<ion-select-option value="NY">New York</ion-select-option>
-	<ion-select-option value="NC">North Carolina</ion-select-option>
-	<ion-select-option value="ND">North Dakota</ion-select-option>
-	<ion-select-option value="OH">Ohio</ion-select-option>
-	<ion-select-option value="OK">Oklahoma</ion-select-option>
-	<ion-select-option value="OR">Oregon</ion-select-option>
-	<ion-select-option value="PA">Pennsylvania</ion-select-option>
-	<ion-select-option value="RI">Rhode Island</ion-select-option>
-	<ion-select-option value="SC">South Carolina</ion-select-option>
-	<ion-select-option value="SD">South Dakota</ion-select-option>
-	<ion-select-option value="TN">Tennessee</ion-select-option>
-	<ion-select-option value="TX">Texas</ion-select-option>
-	<ion-select-option value="UT">Utah</ion-select-option>
-	<ion-select-option value="VT">Vermont</ion-select-option>
-	<ion-select-option value="VA">Virginia</ion-select-option>
-	<ion-select-option value="WA">Washington</ion-select-option>
-	<ion-select-option value="WV">West Virginia</ion-select-option>
-	<ion-select-option value="WI">Wisconsin</ion-select-option>
-	<ion-select-option value="WY">Wyoming</ion-select-option>
-    </ion-select>
-  </ion-item>
 
-  <ion-item>
-    <ion-label>Comment</ion-label>
-    <ion-textarea clearOnEdit="true"></ion-textarea>
-  </ion-item>
-
-  <ion-content>
-        <ion-slides [options]="slideOpts" #slidesx>
-            <ion-slide tabIndex="0">
-              <h1>Slide 1</h1>
-            </ion-slide>
-            <ion-slide  tabIndex="0">
-              <h1>Slide 2</h1>
-            </ion-slide>
-            <ion-slide  tabIndex="0">
-              <h1>Slide 3</h1>
-            </ion-slide>
-            <ion-icon name="arrow-back"></ion-icon> 
-            <ion-icon name="arrow-forward"></ion-icon> 
-          </ion-slides>
-
-          <ion-item>
-            <ion-label>Test Toggle</ion-label>
-            <ion-toggle slot="end"></ion-toggle>
-           </ion-item>
-  </ion-content>
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label>
+          Color
+        </ion-label>
+      </ion-list-header>
+  
+      <ion-item>
+        <ion-label>Red</ion-label>
+        <ion-radio value="red"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Blue</ion-label>
+        <ion-radio value="blue"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Green</ion-label>
+        <ion-radio value="green"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Purple</ion-label>
+        <ion-radio value="purple"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Indigo</ion-label>
+        <ion-radio value="indigo"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  
