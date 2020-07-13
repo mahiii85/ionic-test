@@ -8,9 +8,23 @@
     <ion-label>Hair Color</ion-label>
     <ion-select value="brown" okText="Okay" cancelText="Dismiss">
       <ion-select-option value="brown">Brown</ion-select-option>
-      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="yellow">Yellow</ion-select-option>
       <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="green">green</ion-select-option>
+      <ion-select-option value="purple">Purple</ion-select-option>
+      <ion-select-option value="violet">Violet</ion-select-option>
+      <ion-select-option value="indigo">Indigo</ion-select-option>
       <ion-select-option value="red">Red</ion-select-option>
+      <ion-select-option value="blue">Blue</ion-select-option>
+      <ion-select-option value="orange">Orange</ion-select-option>
+      <ion-select-option value="cyan">Cyan</ion-select-option>
+      <ion-select-option value="lemon-yellow">Lemon Yellow</ion-select-option>
+      <ion-select-option value="cadmium-yellow">Cadmium Yellow</ion-select-option>
+      <ion-select-option value="crimson-red">Crimson Red</ion-select-option>
+      <ion-select-option value="sky-blue">Blue</ion-select-option>
+      <ion-select-option value="electric-blue">Electric</ion-select-option>
+      <ion-select-option value="deep-green">Deep Green</ion-select-option>
+      <ion-select-option value="light-green">Light Green</ion-select-option>
     </ion-select>
   </ion-item>
 
@@ -20,19 +34,22 @@
   </ion-item>
 
   <ion-content>
-        <ion-slides pager="true" [options]="slideOpts" class="swiper-container">
-            <ion-slide class=swiper-slide>
+        <ion-slides [options]="slideOpts" #slidesx>
+            <ion-slide tabIndex="0">
               <h1>Slide 1</h1>
             </ion-slide>
-            <ion-slide class=swiper-slide>
+            <ion-slide  tabIndex="0">
               <h1>Slide 2</h1>
             </ion-slide>
-            <ion-slide class=swiper-slide>
+            <ion-slide  tabIndex="0">
               <h1>Slide 3</h1>
             </ion-slide>
-            <div class="swiper-button-prev">
-            </div>
-            <div class="swiper-button-next">
-            </div>
+            <ion-icon name="arrow-back"></ion-icon> 
+            <ion-icon name="arrow-forward"></ion-icon> 
           </ion-slides>
+
+          <ion-item>
+            <ion-label>Test Toggle</ion-label>
+            <ion-toggle slot="end"></ion-toggle>
+           </ion-item>
   </ion-content>
