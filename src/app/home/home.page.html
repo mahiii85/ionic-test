@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-text>A</ion-text>
+          <ion-icon name="alert" color="secondary" tabindex="0"
+            (keyup.enter)="getReviewInfo($event)" (click)="getReviewInfo($event)">
+          </ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-text>B</ion-text>
+          <ion-icon name="alert" color="secondary" tabindex="0"
+            (keyup.enter)="getReviewInfo($event)" (click)="getReviewInfo($event)">
+          </ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-text>C</ion-text>
+          <ion-icon name="alert" color="secondary" tabindex="0"
+            (keyup.enter)="getReviewInfo($event)" (click)="getReviewInfo($event)">
+          </ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
